@@ -1,7 +1,7 @@
 ﻿// Найти расстояние между точками в пространстве 2D/3D
 Console.WriteLine("Найти расстояние между точками в пространстве 2D/3D");
 Console.WriteLine("Введите 2 для 2D пространства или 3 для 3D пространства");
-int var = int.Parse(Console.ReadLine())!;
+int var = int.Parse(Console.ReadLine()!);
 if (var == 2)
 {
     Console.WriteLine("Выбрано пространство 2D");
